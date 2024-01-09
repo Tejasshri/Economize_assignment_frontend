@@ -14,7 +14,7 @@ const AddTaskForm = ({ update }) => {
     setLoading(true);
     try {
       e.preventDefault();
-      const response = await fetch("http://localhost:3000", {
+      const response = await fetch("https://todoassignmentbackend.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
